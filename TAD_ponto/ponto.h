@@ -1,3 +1,4 @@
-int * cria_pto(int x, int y);
-int libera_pto(int **p);
-int distancia_pto(int *x, int *y);
+typedef struct ponto Ponto;
+Ponto * cria_pto(int x, int y);
+void libera_pto(Ponto **p);
+int distancia_pto(Ponto *p1, Ponto *p2);

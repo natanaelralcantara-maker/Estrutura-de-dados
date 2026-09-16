@@ -5,11 +5,13 @@
 
 int main(){
     int x, x2, y, y2;
-    int *p1, *p2;
+    Ponto *p1, *p2;
 
     printf("Digite as cordenadas de dois pontos: \n");
-    scanf("%d", &x); scanf("%d", &y);
-    scanf("%d", &x2); scanf("%d", &y2);
+    scanf("%d", &x); 
+    scanf("%d", &y);
+    scanf("%d", &x2); 
+    scanf("%d", &y2);
 
     p1 = cria_pto(x, y);
     p2 = cria_pto(x2, y2);
