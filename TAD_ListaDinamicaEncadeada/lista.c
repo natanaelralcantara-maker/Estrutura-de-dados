@@ -35,6 +35,6 @@ int insere_ord(lista *lst, int elem){
     a->prox = aux->prox;
     aux->prox = a;
     return 1;
-        
 }
+
 
